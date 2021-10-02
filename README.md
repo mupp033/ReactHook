@@ -1,68 +1,125 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hacktoberfest Indonesia
 
-## Available Scripts
+<img alt="HF2020" src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg">
 
-In the project directory, you can run:
+# Apa Itu Hacktoberfest ?
+Hacktoberfest adalah acara tahunan yang bertujuan untuk mendorong
+berkontribusi kedalam ekosistem open source . 
 
-### `npm start`
+Acara ini bebas untuk siapa saja baik untuk pemula hingga professional sekalipun , berlangsung mulai dari tanggal
+1 oktober hingga 31 oktober . acara tahun ini di jalankan oleh digital ocean , github dan dev.to . target dari acara ini adalah peserta dapat melakukan 4 pull request di antara tanggal 1 hingga 31 oktober 2021.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Cara daftar Hacktoberfest
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Buka link ini https://hacktoberfest.digitalocean.com/
+- klik Tombol Start Hacking
+<a href="https://hacktoberfest.digitalocean.com/register">
+<img src="https://user-images.githubusercontent.com/31664438/135388900-c636109d-b597-492e-9430-04f22e4e98e6.png">
+</a>
+          
+- klik signup with github
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/31664438/135388934-a11297cc-cdf4-42ed-8546-dbd66294f34d.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Centang informasi sesuai dengan informasi dirimu sendiri
 
-### `npm run build`
+Mulailah berkontribusi di berbagai repository di github 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Cara Berkontribusi di Repository Ini
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Silahkan klik `TEMPLATE_BIO.md` kemudian klik edit
 
-### `npm run eject`
+- Lalu isi biodata kalian masing masing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Copy semua kode template yang kalian isi tadi 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Buka folder `profile` di repository ini
+  kemudian klik  Add File disamping kanan dan klik `Create New File`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Beri nama file nya `Namamu.md` dan Pastekan kode Markdown yang tadi sudah di copy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Selamat mengikuti Hacktoberfest 🌠
 
-## Learn More
+  Atau kamu bisa mengisi kode dalam folder code , isikan snippet kode apapun didalam nya
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+----
+## Bagaimana cara berkontribusi di Repository github ?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Berikut langkah-langkahnya secara singkat:
 
-### Code Splitting
+1. Fork it!
+2. Buatlah *branch* fitur baru: `git checkout -b my-new-feature`
+3. *Commit* perubahannya: `git commit -am 'Add some features'`
+4. *Push* ke branch di *remote*: `git push origin my-new-feature`
+5. Buat *pull request*
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Cari proyek open source.  
+*Kali ini, saya sebagai pengembang Android akan menggunakan* **[awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)** *sebagai contoh.*
+2. Cari info tentang aturan kontribusi, atau hubungi developer yang terkait baik via email atau media sosial.
+3. Jika memang tidak tertera aturan kontribusi dan sang developer tidak merespon, anda bisa langsung melakukan fork proyek yang akan anda kontribusikan.
+4. Setelah selesai fork, maka repository akan masuk ke daftar repo milik anda.
 
-### Analyzing the Bundle Size
+----
+## Time to GO CODE ;)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
 
-### Making a Progressive Web App
+1. Cloning project yang sudah anda fork ke akun anda
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+        git clone <alamat-repo>
 
-### Advanced Configuration
+    Contoh:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+        git clone git@github.com:CreatorB/MaterialTabs.git
 
-### Deployment
+2. Untuk mempermudah pengembangan, hendaknya kita menambahkan repository pusat dengan lokal milik kita agar tidak terjadi konflik dengan kontributor lainnya.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+        git remote add <nama-repo> <alamat-repo>
 
-### `npm run build` fails to minify
+    Contoh:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+        git remote add upstream git://github.com/neokree/MaterialTabs.git
+
+3. Setelah remote repositori selesai, buatlah branch baru agar tidak merusak history branch utama, dan juga untuk memudahkan racking code.
+
+        git checkout -b <nama-cabang>
+
+    Contoh:
+
+        git checkout -b sample-project
+
+4. Di cabang baru ini lah kita akan untuk melakukan perubahan kode, yang nantinya bisa kita push ke repo pusat. Untuk berpindah branch bisa kita gunakan `git checkout <nama-cabang>`, dimana `<nama-cabang>` adalah nama yang anda gunakan pada langkah sebelumnya.
+
+5. Setelah melakukan perubahan, kita bisa lakukan commit berisi deskripsi singkat tentang perubahan yang anda lakukan. Tetapi jika ada penambahan file, bisa menggunakan perintah `git add <nama-file-baru>`, atau gunakan `git add .` untuk menambahkan semua perubahan yang ada di direktori tersebut secara rekursif. Setelah itu baru bisa kita commit.
+
+        git commit -m "<pesan singkat>"
+
+    Contoh:
+
+        git commit -m "fix sample project and added gradle compile"
+
+6. Setelah selesai melakukan commit, kita akan melakukan persiapan untuk membuat *pull request* (biasa disingkat PR) ke repo pusat. Pertama kita pindah branch kembali ke master. 
+
+        git checkout master
+
+7. Setelah itu, kita akan mengambil kode lagi dari pusat, untuk memastikan tidak terdapat konflik pada kontribusi kode kita. Konflik dapat terjadi jika dua atau lebih kontributor melakukan perubahan pada satu berkas, terutama jika perubahan dilakukan pada baris yang sama, terlepas dari apakah tujuan perubahan sama atau tidak.
+
+        git fetch upstream
+        git merge upstream/master
+
+8. Dengan proses diatas, setidaknya kita telah bisa memastikan bahwa tidak ada konflik dengan repo pusat. Sekarang kita kembali ke branch lokal development kita `sample-project`.
+
+        git checkout sample-project
+
+9. Setelah itu, kita gabungkan cabang tersebut dengan cabang utama, sehingga kontribusi dapat dikirimkan kembali ke repositori pusat milik neokree, Material Tabs android library, dengan perintah `git rebase <nama-branch>`.
+
+        git rebase master
+
+10. Sebelum push ke repositori pusat milik neokree, kita akan push ke repository hasil fork di awal pembahasan tadi.
+
+        git push origin sample-project
+
+11. Setelah di push, kita akan melakukan pull request dan membandingkan perubahan yang telah anda lakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create pull request dan menunggu tanggapan dari pemilik repo pusat. Lebih lengkapnya bisa anda lihat di tag screenshot.
+
+----
