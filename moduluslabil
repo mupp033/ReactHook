@@ -1,0 +1,12 @@
+<?php
+    //OPERATOR ARITMATIKA
+    $a = 2;
+    $b = 3;
+    $c = 5;
+    $d = 10;
+ 
+    echo "<br/> MODULUS <br/>";
+    echo ($d%$b)."<br/>"; //tercetak 1 karena 10/3 adalah 3 + 1 -> yang dicetak 1
+    echo $a%$b."<br/>";       //tercetak 2 karena 
+    
+?>
