@@ -1,0 +1,13 @@
+<?php
+    //OPERATOR ARITMATIKA
+    $a = 2;
+    $b = 3;
+    $c = 5;
+    $d = 10;
+ 
+ 
+    echo "<br/> PEMBAGIAN <br/>";
+    echo $d/$c."<br/>";       //tercetak 2
+    echo ($d/$b)."<br/>"; //tercetak 3.33333
+    
+?>
