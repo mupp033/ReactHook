@@ -1,0 +1,14 @@
+<?php
+    //OPERATOR ARITMATIKA
+    $a = 2;
+    $b = 3;
+    $c = 5;
+    $d = 10;
+ 
+   
+ 
+    echo "<br/> PERKALIAN <br/>";
+    echo ($a*$b)."<br/>"; //tercetak  6
+    echo ($b*-$c)."<br/>";    //tercetak -10
+ 
+  ?>
