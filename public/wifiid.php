@@ -39,7 +39,7 @@ print "$cyan      |   | )   $okegreen  | |/ |/ / / _/ / / / _  /  \n";
 print "$cyan      |   \*/   $okegreen  |__/|__/_/_//_(_)_/\_,_/   \n";
 print "$cyan    ,'    //.   $yellow      Account Generator    \n";
 print "$cyan   :~~~~~//~~;                               \n";
-print "$cyan    `.  // .'   $white https://github.com/N1ght420 \n";
+print "$cyan    `.  // .'   $white https://github.com/Fauzanooe \n";
 print "$cyan    `-------'                                \n\n";
 
 $awal = array("","9813","9812","9811","9853","9852");
