@@ -11,3 +11,4 @@ $indihome->run(1, true); # 1 = total, true can false if youw ant disable debuggi
 
 # MuflikhArizka
 # HacktoberFest2021
+# newactions
