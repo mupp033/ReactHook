@@ -40,6 +40,7 @@ print "$cyan      |   \*/   $okegreen  |__/|__/_/_//_(_)_/\_,_/   \n";
 print "$cyan    ,'    //.   $yellow      Account Generator    \n";
 print "$cyan   :~~~~~//~~;                               \n";
 print "$cyan    `.  // .'   $white https://github.com/Fauzanooe \n";
+print "$red    `.  // .'   $white https://github.com/mupp033 \n";
 print "$cyan    `.  // .'   $white iam a editor yeah bro \n";
 print "$cyan    `-------'                                \n\n";
 
