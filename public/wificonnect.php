@@ -8,3 +8,5 @@ $indihome = new IndiHome();
 $indihome->run(1, true); # 1 = total, true can false if youw ant disable debugging
 
 # Lihat class jika ingin informasi lebih jelas
+
+# MuflikhArizka
